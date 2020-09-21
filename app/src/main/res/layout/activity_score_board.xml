@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_score_board"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+android:background="@drawable/wall"
+    tools:context="com.we4.wordolio.ScoreBoard">
+
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:maxWidth="50dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+
+        app:srcCompat="@drawable/hps"
+        android:id="@+id/imageButton"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:onClick="simpleScore" />
+
+    <ImageButton
+
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:maxWidth="50dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+
+        app:srcCompat="@drawable/hpm"
+        android:layout_marginTop="28dp"
+        android:id="@+id/imageButton9"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="medScore" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:maxWidth="50dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+
+        app:srcCompat="@drawable/hpd"
+        android:layout_marginTop="29dp"
+        android:id="@+id/imageButton10"
+        android:layout_below="@+id/imageButton9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="difScore" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:background="@drawable/scorenew"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageButton9"
+        android:layout_alignEnd="@+id/imageButton9"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:maxWidth="102dp"
+        android:maxHeight="72dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/h"
+        android:id="@+id/imageView7"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginBottom="21dp"
+        android:background="@android:color/transparent"
+        android:onClick="goHome" />
+</RelativeLayout>

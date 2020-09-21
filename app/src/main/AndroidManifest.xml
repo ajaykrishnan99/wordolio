@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.we4.wordolio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/finallogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HowToPlay" />
+        <activity android:name=".Level" />
+        <activity android:name=".ScoreBoard" />
+        <activity android:name=".Simple" />
+        <activity android:name=".Medium" />
+        <activity android:name=".Difficult" />
+        <activity android:name=".S2" />
+        <activity android:name=".S3" />
+        <activity android:name=".S4" />
+        <activity android:name=".S5" />
+        <activity android:name=".S1" />
+        <activity android:name=".M1" />
+        <activity android:name=".M2" />
+        <activity android:name=".M3" />
+        <activity android:name=".M4" />
+        <activity android:name=".M5" />
+        <activity android:name=".SimpleScore" />
+        <activity android:name=".MediumScore" />
+        <activity android:name=".DifficultScore" />
+        <activity android:name=".D1" />
+        <activity android:name=".D2" />
+        <activity android:name=".D3" />
+        <activity android:name=".D4" />
+        <activity android:name=".D5"></activity>
+    </application>
+
+</manifest>

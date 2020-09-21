@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/minion"
+    tools:context="com.we4.wordolio.Level">
+
+    <Button
+        android:text="SIMPLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="197dp"
+        android:id="@+id/button1"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/redbottuon"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:onClick="simple" />
+
+    <Button
+        android:text="MEDIOCRE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@drawable/redbottuon"
+        android:layout_marginTop="69dp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:fontFamily="casual"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:onClick="med" />
+
+    <Button
+        android:text="DIFFICULT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:background="@drawable/redbottuon"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:fontFamily="casual"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:onClick="dif" />
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/h"
+        android:maxWidth="152dp"
+        android:maxHeight="152dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:id="@+id/imageButton6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="goHome"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/level"
+        android:id="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageButton6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+</RelativeLayout>

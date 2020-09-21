@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_simple_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/scoreboardimage"
+    tools:context="com.we4.wordolio.SimpleScore">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="280dp"
+        android:stretchColumns="0,1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="211dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_marginLeft="2dp"
+            android:padding="3dip"
+            android:layout_weight="0">
+
+            <TextView
+
+                android:text="WORDS"
+                android:textAlignment="center"
+                android:textColor="#FFD700"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="3dip"
+                android:background="#6F9C33"
+                android:fontFamily="casual"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/line0"
+                android:text="SCORE"
+                android:textStyle="bold"
+                android:textAlignment="center"
+
+                android:textColor="#800000"
+                android:gravity="center"
+                android:fontFamily="casual"
+                android:textSize="25sp"
+                android:background="#92C94A"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+
+            android:layout_margin="1dp"
+
+            android:dividerPadding="@dimen/activity_vertical_margin"
+            android:layout_weight="0">
+
+            <TextView
+
+                android:text=" 1"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:padding="3dip"
+                 android:background="#6F9C33"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+            <TextView
+                android:id="@+id/line1"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:textAlignment="center"
+                android:gravity="right"
+                android:background="#92C94A"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+
+            android:layout_margin="1dp"
+
+            android:dividerPadding="@dimen/activity_vertical_margin"
+            android:layout_weight="0">
+
+            <TextView
+
+                android:text="2"
+                android:textColor="#ffffff"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:fontFamily="casual"
+
+                android:paddingLeft="1dp"
+                android:background="#6F9C33"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+            <TextView
+                android:id="@+id/line2"
+                android:fontFamily="casual"
+                android:text=""
+                android:textAlignment="center"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#92C94A"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+
+            android:layout_margin="1dp"
+
+
+            android:dividerPadding="@dimen/activity_vertical_margin"
+            android:layout_weight="0">
+
+            <TextView
+
+                android:text="3"
+                android:textColor="#ffffff"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#6F9C33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/line3"
+                android:text=""
+                android:textAlignment="center"
+                android:gravity="right"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#92C94A"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+
+            android:layout_margin="1dp"
+
+            android:dividerPadding="@dimen/activity_vertical_margin"
+            android:layout_weight="0">
+
+            <TextView
+
+                android:text="4"
+                android:textColor="#ffffff"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#6F9C33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+            <TextView
+                android:id="@+id/line4"
+                android:text=""
+                android:textAlignment="center"
+                android:gravity="right"
+                android:background="#92C94A"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+            android:textAlignment="center"
+            android:dividerPadding="@dimen/activity_vertical_margin"
+            android:layout_weight="0">
+
+            <TextView
+
+                android:text="5"
+                android:textColor="#ffffff"
+                android:padding="2dip"
+                android:fontFamily="casual"
+                android:background="#6F9C33"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+            <TextView
+                android:id="@+id/line5"
+                android:text=""
+                android:gravity="right"
+                android:fontFamily="casual"
+                android:background="#92C94A"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:padding="3dip" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wayalone"
+        android:id="@+id/imageView6"
+        android:layout_marginRight="59dp"
+        android:layout_marginEnd="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="255dp" />
+
+    <TextView
+        android:text="SIMPLE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6" />
+
+    <Button
+        android:text="    BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:id="@+id/button5"
+        android:background="@android:color/transparent"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:onClick="back" />
+
+
+</RelativeLayout>

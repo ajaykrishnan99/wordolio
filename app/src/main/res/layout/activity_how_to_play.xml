@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_how_to_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+android:background="@drawable/background"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.we4.wordolio.HowToPlay">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/eyes"
+        android:layout_marginTop="37dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:text="Welcome to a new wave of word games! \nWord Olio is a twisted version of the popular game “Bulls and Cows”, only this involves more letters and words. Decipher the hidden word by providing new words in order to find the letters that compose the word. After discovering all the composite letters crack the hidden word and rule the game.\n\nInstructions: \n\nSuppose the hidden word is ACE. You may enter any random word to find the composite letters of the hidden word. \nIf you enter the word “ANT”, it will show 1 (ant – 1) because “ANT” consists of one letter (A) that is common to “ACE”.  \nIf you enter the word “NOW”, it will show 0 (now – 0) because it has no letter in common with “ACE”. \nIf you enter “EVE”, it will show 2 (eve – 2), not because it consists of two letters from the hidden word but as it contains the same letter twice (the letter ‘E’ appears twice in the given word). \nLikewise, discover all the letters and ultimately the hidden word. Think smart and optimize your guesses as the number of words you take to find all the letters counts. The more words you put in, the more your score dwindles. \nGood luck and Rock on!  \n\nRules: \n\n•	Make sure you enter a valid word. Be legit and don’t spoil the fun! \n•	Use minimum number of words to guess the letters or else your score goes down.  \n•	You can move on to the next word in the level only if you find the one present.  \n•	Enter at least a 3-letter word. \n•	You can use the clue given to find the word, but it will scoop out your score.  \n•	The hidden word won’t have repetitive letters. Take it easy!  	 "
+        android:fontFamily="casual"
+        android:textSize="21sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hw2play"
+        android:id="@+id/imageView3"
+        android:layout_marginBottom="154dp"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/h"
+        android:maxWidth="152dp"
+        android:maxHeight="152dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:id="@+id/imageButton11"
+        android:layout_marginLeft="297dp"
+        android:layout_marginStart="297dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="home"
+        android:background="@android:color/transparent" />
+
+
+</RelativeLayout>
+
+</ScrollView>
